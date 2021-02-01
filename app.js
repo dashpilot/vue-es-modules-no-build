@@ -1,6 +1,4 @@
 import Header from './components/header.js'
-import Content from './components/content.js'
-import Footer from './components/footer.js'
 import Post from './components/wdgt-post.js'
 
 const App = {
@@ -22,8 +20,6 @@ const App = {
 
   components: {
     'app-header': Header,
-    'app-content': Content,
-    'app-footer': Footer,
     'wdgt-post': Post
   },
 
